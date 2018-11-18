@@ -11,8 +11,8 @@ bot.on('ready', () => {
 bot.login('NTEzNDY3NDM4MTM0OTg0NzA0.DtIfyQ.O9Z08nIbblaRmpvO3DRK8s54jgk');
 
 bot.on('message', message => {
-    if (message.content === "ping"){
-        message.reply("pong");
+    if (message.content === "bonjour assistante"){
+        message.reply("Bonjour mon chef, je te shouaite une bonne journée/soirée");
         console.log('pingpong');
     }
 
