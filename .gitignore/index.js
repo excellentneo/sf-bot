@@ -12,7 +12,7 @@ bot.login('NTEzNDY3NDM4MTM0OTg0NzA0.DtIfyQ.O9Z08nIbblaRmpvO3DRK8s54jgk');
 
 bot.on('message', message => {
     if (message.content === "Bonjour assistante"){
-        message.reply("enchanté de vous voir, je vous shouaite une bonne journée/soirée");
+        message.reply("enchanté de vous voir, je vous souhaite une bonne journée/soirée");
         console.log('pingpong');
     }
 
